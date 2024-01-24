@@ -12,7 +12,7 @@ We must remind ourselves what computer science is all about: ChatGPT wrapper sta
 
 With this in mind, I present UnsafetyNet, the world's first deep learning library with no error checking. No matter what you do (assuming the code compiles), you will never see a single error message when running this code (except for multiple SEGFAULTs). This is deep learning, done right.  
 
-Everything here is written in C, the perfect language. Your tensor has rank -1? Sounds good. Your activation function doesn't even exist? We'll make do. When you fail, you fail straight into bare metal, the way [God](https://www.bell-labs.com/usr/dmr/www/) intended.  
+Everything here is written in C, the perfect language. Your tensor has rank -1? Sounds good. That layer's activation function doesn't even exist? We'll make do. When you fail, you fail straight into bare metal, the way [God](https://www.bell-labs.com/usr/dmr/www/) intended.  
 
 Have fun!
 
